@@ -105,8 +105,7 @@ src/
 ├── App.tsx
 ├── main.tsx
 └── index.css
-
-
+```
 ## Deployment
 
 The website is deployed using Vercel.
