@@ -6,7 +6,7 @@ The website showcases my software development and AI-related projects, technical
 
 ## Live Website
 
-https://YOUR-VERCEL-DOMAIN.vercel.app
+[[https://YOUR-VERCEL-DOMAIN.vercel.app](https://charlie-portfolio-five.vercel.app/)](https://charlie-portfolio-five.vercel.app/)
 
 ## About
 
