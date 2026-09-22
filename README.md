@@ -1,75 +1,107 @@
-# React + TypeScript + Vite
+# Charlie — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal developer portfolio built with React and TypeScript.
 
-Currently, two official plugins are available:
+The website showcases my software development and AI-related projects, technical skills, and development experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Website
 
-## React Compiler
+https://YOUR-VERCEL-DOMAIN.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About
 
-## Expanding the ESLint configuration
+I am a Computer Science graduate from The Hong Kong Polytechnic University with an interest in software development, AI applications, and practical IT systems.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The portfolio currently showcases projects involving:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Software development
+- Computer vision
+- Machine learning
+- Large language models
+- Backend development
+- Linux and system administration
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Featured Projects
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Smart Waiter
 
-```
+Multimodal AI-powered café ordering and proactive service system.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+**Technologies**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- React
+- Python
+- FastAPI
+- YOLOv8
+- Computer Vision
+- Web Speech API
+- SQLite
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### AI Anti-Fraud Chatbot
 
-```
+AI-powered fraud detection chatbot combining BERT-based text classification, rule-based risk analysis, and an LLM for human-readable explanations.
+
+**Technologies**
+
+- Python
+- PyTorch
+- BERT
+- Ollama
+- Gradio
+- Machine Learning
+
+## Technology Stack
+
+### Programming
+
+- Java
+- Python
+- C/C++
+- JavaScript
+- SQL
+
+### AI & Machine Learning
+
+- BERT
+- PyTorch
+- Computer Vision
+- Object Detection
+- LLM
+
+### Systems
+
+- Linux
+- SSH
+- Remote Server Administration
+- Service Deployment
+
+### Development Tools
+
+- GitHub
+- Postman
+- Navicat
+- DBeaver
+- Gradio
+
+## Development
+
+This portfolio was built with:
+
+- React
+- TypeScript
+- Vite
+- React Router
+- CSS
+
+## Project Structure
+
+```text
+src/
+├── assets/
+│   └── smart-waiter/
+│
+├── AntiFraudBot.tsx
+├── SmartWaiter.tsx
+├── App.tsx
+├── main.tsx
+└── index.css
