@@ -105,3 +105,20 @@ src/
 ├── App.tsx
 ├── main.tsx
 └── index.css
+
+
+## Deployment
+
+The website is deployed using Vercel.
+
+## Author
+
+**Charlie**
+
+Computer Science Graduate
+
+The Hong Kong Polytechnic University
+
+GitHub:
+
+https://github.com/koyuki-chan
